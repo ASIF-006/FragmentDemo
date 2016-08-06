@@ -5,4 +5,6 @@
     <string name="fragment_three">Fragment Three</string>
     <string name="fragment_two">Fragment Two</string>
     <string name="start_fragment">Start Fragment</string>
+    <string name="todays_weather">Todays weather</string>
+    <string name="forecast">Forecast</string>
 </resources>

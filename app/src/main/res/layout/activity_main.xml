@@ -12,12 +12,12 @@
     <LinearLayout
         android:id="@+id/buttonLayout"
         android:orientation="horizontal"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/btnOne"
-            android:text="@string/fragment_one"
+            android:text="@string/todays_weather"
             android:textAllCaps="false"
             android:layout_weight="1"
             android:onClick="replace"
@@ -26,21 +26,14 @@
 
         <Button
             android:id="@+id/btnTwo"
-            android:text="@string/fragment_two"
+            android:text="@string/forecast"
             android:textAllCaps="false"
             android:layout_weight="1"
             android:onClick="replace"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <Button
-            android:id="@+id/btnThree"
-            android:text="@string/fragment_three"
-            android:textAllCaps="false"
-            android:layout_weight="1"
-            android:onClick="replace"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+
 
     </LinearLayout>
 

@@ -9,7 +9,6 @@ import android.view.View;
 
 import com.example.mobileappdevelop.fragmentdemo.R;
 import com.example.mobileappdevelop.fragmentdemo.fragment.FragmentOne;
-import com.example.mobileappdevelop.fragmentdemo.fragment.FragmentThree;
 import com.example.mobileappdevelop.fragmentdemo.fragment.FragmentTwo;
 import com.example.mobileappdevelop.fragmentdemo.fragment.StartFragment;
 
@@ -25,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         StartFragment startFragment = new StartFragment();
         fragmentTransaction.replace(R.id.myFragment, startFragment);
         fragmentTransaction.commit();
+
+
     }
 
     public void replace(View view) {
@@ -36,9 +37,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btnTwo:
                 newFragemnt = new FragmentTwo();
                 break;
-            case R.id.btnThree:
-                newFragemnt = new FragmentThree();
-                break;
+
             default:
                 newFragemnt = new StartFragment();
                 break;
